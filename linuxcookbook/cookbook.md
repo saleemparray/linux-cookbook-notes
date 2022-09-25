@@ -1,35 +1,3 @@
-﻿Useful Tricks
---------------
-#### Bang Bang
------------
-    !!              Execute previous command
-    sudo !!            Execute previous command with sudo
-
-#### Cut and Yank
---------------
-    Ctrl+k            Cut Command from cursor to end 
-    Ctrl+u            Cut the Line from the cursor to the beginning of line
-    Ctrl+y            Yank the text back.
-    Ctrl+w            curl backwards word by word
-
-#### Mix cut and yank
------------------
-    Suppose you extered an command and you forgot to add something at the 
-    the beginning of line just type 
-    
-    Ctrl+u
-    type the sudo
-    Ctrl+y
-  
-#### Editing Command in Text Editor
-----------------------------------
-    If you are editing an Very Big command you can type
-    
-    Ctrl + x + e       [Hold the Ctrl]
-
-#### Watch you bash script in debug mode
-------------------------------------------
-    bash -x script.sh
 
 
 Basic Commands:
